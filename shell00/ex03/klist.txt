@@ -1,0 +1,5 @@
+Credentials cache: API:DDD15B9E-7123-4783-B2ED-5EF8A05D2C59
+        Principal: tueta@42TOKYO.JP
+
+  Issued                Expires               Principal
+Sep  7 19:08:20 2020  Sep  8 05:08:20 2020  krbtgt/42TOKYO.JP@42TOKYO.JP

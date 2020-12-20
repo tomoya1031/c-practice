@@ -1,0 +1,1 @@
+cat /etc/passwd | awk 'NR % 2 == 0' | awk '!/^#/' | cut -d ":" -f 1 | rev | sort -r | awk NR==$FT_LINE1,NR==$FT_LINE2 | xargs | sed -e 's/ /, /g' |  sed -e 's/, $/\n/g' |sed 's/$/./g' | tr -d '\n'

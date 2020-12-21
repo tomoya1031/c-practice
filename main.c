@@ -19,4 +19,4 @@ int main(){
     c<d?printf("小さいです"):printf("等しいです");
     
     return 0;
-}
+
